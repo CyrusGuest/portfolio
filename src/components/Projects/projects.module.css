@@ -80,3 +80,28 @@
 .projectCardImg {
   max-width: 200px;
 }
+
+@media screen and (max-width: 768px) {
+  .projectCardContainer {
+    max-width: 650px;
+    max-height: 450px;
+  }
+
+  .projectCardTitle {
+    font-size: 26px;
+  }
+
+  .projectCardDescription {
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .projectCardImg {
+    max-width: 150px;
+  }
+
+  .projectCardBtn {
+    margin-top: 25px;
+  }
+}
