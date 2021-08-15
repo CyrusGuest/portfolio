@@ -1,0 +1,82 @@
+.projectSectionContainer {
+  min-height: 970px;
+  z-index: 1;
+  position: relative;
+  background-color: #8cb3a1;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+}
+
+.projectCardsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectCardContainer {
+  width: 800px;
+  height: 500px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.projectCardContentContainer {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.projectCardTitle {
+  font-size: 32px;
+  margin-top: 20px;
+  max-width: 280px;
+}
+
+.projectCardDescription {
+  margin-top: 30px;
+  font-size: 20px;
+  max-width: 330px;
+  line-height: 29px;
+}
+
+.projectCardBtn {
+  color: white;
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 60px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectCardImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.projectCardImg {
+  max-width: 200px;
+}

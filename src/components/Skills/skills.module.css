@@ -1,0 +1,70 @@
+.skillsContainer {
+  min-height: 970px;
+  z-index: 1;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 64px;
+  text-align: center;
+  margin-top: -12px;
+}
+
+.skillCardsContainer {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 150px;
+  row-gap: 47px;
+}
+
+.skillCardContainer {
+  place-self: center;
+  display: flex;
+  width: 431px;
+  height: 212px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.skillCardImgContainer {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.skillCardImg {
+  max-width: 125px;
+  max-height: 125px;
+}
+
+.skillCardContentContainer {
+  width: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skillCardName {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 13px;
+}
+
+.skillCardText {
+  margin-top: 19px;
+  line-height: 21px;
+  font-size: 18px;
+  max-width: 168px;
+  text-align: center;
+}
