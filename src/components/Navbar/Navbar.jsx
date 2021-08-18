@@ -14,7 +14,7 @@ const Navbar = ({ toggleSidebar }) => {
       setScrollNav(true);
     } else if (window.scrollY < 900) {
       setScrollNav(false);
-    } else if (window.scrollY > 1870 && window.scrollY <= 2900) {
+    } else if (window.scrollY > 1870 && window.scrollY <= 3050) {
       setScrollNav(false);
     } else {
       setScrollNav(true);
