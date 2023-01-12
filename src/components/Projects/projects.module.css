@@ -48,7 +48,7 @@
 
 .projectCardDescription {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 16px;
   max-width: 330px;
   line-height: 29px;
 }
@@ -63,7 +63,7 @@
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 60px;
+  margin-top: 25px;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -79,6 +79,13 @@
 
 .projectCardImg {
   max-width: 200px;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
